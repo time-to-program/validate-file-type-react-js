@@ -1,13 +1,81 @@
-body {
+*{
+  font-family: 'Poppins', sans-serif;
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #E3E4DF;
+}
+
+
+.card {
+  width: 20rem;
+  background-color: #FFFFFF;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 0 0.5rem;
+}
+
+.card-header{
+  border-bottom: 1px solid #F6F6F6;
+  padding: 1rem 1.2rem;
+  background-color: #F8F6F5;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #171717;
+  margin: 0;
+}
+
+.card-body{
+  padding: 1rem
+}
+
+input[type="file"]{
+  width: 16rem;
+  font-size: 0.8rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.2rem;
+  border: 2px solid #f3f3f3;
+  margin: 0.5rem 0;
+}
+
+button {
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #171717;
+  border: none;
+  border-radius: 0.2rem;
+  padding:0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.success-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color:#537F6E;
+  background-color: #E2ECE9;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.error-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color:#DB7269;
+  background-color: #FDECEB;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
 }
