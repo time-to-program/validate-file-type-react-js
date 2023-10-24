@@ -1,0 +1,81 @@
+* {
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f2f4;
+}
+
+.card {
+  width: 25rem;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin: 0 0.5rem;
+}
+
+.card-header {
+  border-bottom: 1px solid #f6f6f6;
+  padding: 1rem 1.2rem;
+  background-color: #7f489a;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #fff;
+  margin: 0;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+input[type="file"] {
+  width: 21rem;
+  font-size: 1rem;
+  padding: 0.6rem 0.8rem;
+  border-radius: 0.2rem;
+  border: 2px solid #f3f3f3;
+  margin: 0.5rem 0;
+}
+
+button {
+  width: 100%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #40244d;
+  background-color: #f5eff9;
+  border: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.success-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #537f6e;
+  background-color: #e2ece9;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.error-text {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #8d4328;
+  background-color: #faefeb;
+  border-radius: 0.2rem;
+  padding: 0.5rem 1rem;
+}
